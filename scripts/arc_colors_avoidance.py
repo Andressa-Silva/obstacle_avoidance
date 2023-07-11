@@ -15,7 +15,6 @@ def img_arc_callback():
             arc.arc_colors(frame)
             arc.show()
 
-            #cv2.imshow('Cam opened', frame)
             cv2.waitKey(100)                       
 
     else:
@@ -25,8 +24,7 @@ def img_arc_callback():
     cv2.destroyAllWindows()
 
 if __name__ == '__main__': 
-    print("inicializing node")
-    rospy.init_node("arc_colors_avoidance_node", anonymous = False)
+    rospy.init_node("arc_colors_avoidance_node")
     
     img_arc_callback()
     rospy.spin()
