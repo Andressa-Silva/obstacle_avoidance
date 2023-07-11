@@ -42,6 +42,7 @@ class arc_detector():
             self.area = cv2.contourArea(cnt)
             if self.area >= 2500:
                 self.pub_collor_arc.publish(Bool(True))
+                #print(self.area) for debug
             else:
                 self.pub_collor_arc.publish(Bool(False))
 
