@@ -1,4 +1,4 @@
-#Red arc detection with OpenCV
+# Red arc detection with OpenCV
 
 ### To run:
 
