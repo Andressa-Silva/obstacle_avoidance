@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>    
+    <node name="arc_colors_avoidance_debug" pkg="obstacle_avoidance" type="arc_colors_avoidance_debug.py" output="screen" />
+</launch>
+
